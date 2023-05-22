@@ -1,9 +1,7 @@
-import Image from 'next/image'
-
-export default function Home() {
-  return (
-    <>
-      <h1>Dashoard</h1>
-    </>
-  )
+export default function Page(){
+    return(
+        <>
+            <h1>dashboard page</h1>
+        </>
+    )  
 }
