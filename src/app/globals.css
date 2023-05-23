@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root{
+<<<<<<< HEAD
   background-color: #e4e5e6;
 }
 
@@ -48,15 +49,14 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+=======
+    background-color: #e4e5e6;
+>>>>>>> 8b06ce9bd9c9daf50cdb9755542de6702b983b24
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg-primary{
+    background-color: #02275D;
 }
+<<<<<<< HEAD
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -67,3 +67,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+=======
+.badge-sm{
+    background-color: #F86C6B;
+}
+.footer{
+    background-color: #FFFFFF;
+}
+label > .appname{
+    color: #02275D;
+}
+>>>>>>> 8b06ce9bd9c9daf50cdb9755542de6702b983b24
