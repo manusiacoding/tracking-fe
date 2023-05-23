@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root{
-<<<<<<< HEAD
   background-color: #e4e5e6;
 }
 
@@ -67,7 +66,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
-=======
 .badge-sm{
     background-color: #F86C6B;
 }
@@ -77,4 +75,3 @@ body {
 label > .appname{
     color: #02275D;
 }
->>>>>>> 8b06ce9bd9c9daf50cdb9755542de6702b983b24
