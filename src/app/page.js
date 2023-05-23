@@ -109,8 +109,7 @@ export default function Page() {
     //     </a>
     //   </div>
     // </main>
-    <>
-      <h1>Home Page!</h1> 
+    <> 
     </>
   )
 }

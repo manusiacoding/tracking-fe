@@ -2,7 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+:root{
+  background-color: #e4e5e6;
+}
+
+.footer {
+  position: fixed;
+  height: 40px;
+  background-color: white;
+  color: #02275D;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.header {
+  background-color: #02275D;
+}
+
+.logo{
+  height: 40px;
+  width: 120px;
+}
+
+.badge-sm{
+  background-color: red;
+  color: white;
+}
+
+.let{
+  color: white;
+}
+
+.redux{
+  background-color: white;
+  height: 5px;
+}
+
+.list{
+  height: 30px;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +66,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
